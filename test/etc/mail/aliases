@@ -1,0 +1,11 @@
+# Basic system aliases -- these MUST be present
+MAILER-DAEMON: postmaster
+postmaster: root
+
+# General redirections for important pseudo accounts
+daemon: root
+operator: root
+www: root
+# start managed block
+dev: /var/www/archive/rset-dev-2024.mbox,marc,ericshane@eradman.com
+# end managed block

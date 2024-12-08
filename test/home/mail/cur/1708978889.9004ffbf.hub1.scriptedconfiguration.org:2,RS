@@ -1,0 +1,40 @@
+Return-Path: <eradman@eradman.com>
+Delivered-To: admin@scriptedconfiguration.org
+Received: from mx.unresolved.name (mx.unresolved.name [159.69.114.67])
+	by hub1.scriptedconfiguration.org (OpenSMTPD) with ESMTPS id 76ca023c (TLSv1.3:TLS_AES_256_GCM_SHA384:256:NO)
+	for <admin@scriptedconfiguration.org>;
+	Mon, 26 Feb 2024 15:21:29 -0500 (EST)
+Date: Mon, 26 Feb 2024 22:21:21 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=eradman.net; s=rsa_2023;
+	t=1708978887;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type;
+	bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+	b=sQDOsYJXR5/VnvBDzsiBpjPCTJytPZgK4/QqhDnQ09Uf0alC4ULtakH3yEfC1M+2I8mBNE
+	q4f/7Tx8Ux9d1fd/LOOWZFcfptaZAAht9YrRQOP38lpkBRgfkfOUhanTR6zEpxxV0oO+Ga
+	xW0wvElplDI8/Nzn0b6mrXBVXbzuLRL53WZAWpJGqXWJXQAABNM+m7mCw8bwshOAsXH9iO
+	aIceE0NgvXrgBXfk8uS+wkSCBQpaFARwvc67LVCo/71xNeemYJsVSyKAglhxLXZEqbZ61G
+	YKK+kAfWadsFEkJyQdT9kIoQ8mMZSnTlht38aCaUQEnGt8lDZjOa7Ukf3Znttg==
+DKIM-Signature: v=1; a=ed25519-sha256; c=relaxed/relaxed; d=eradman.net;
+	s=ed25519_2023; t=1708978887;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type;
+	bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+	b=BBInJ7EGzI8/sPvmKR1nz2soBBjz2j/LvwGLub0WnvyuPQPSsNRIgyG4rRhCyUPs4OBwhj
+	nvSacLfZ76MFumCw==
+Authentication-Results: ORIGINATING;
+	auth=pass smtp.auth=eradman@eradman.com smtp.mailfrom=eradman@eradman.com
+List-Id: <dev.scriptedconfiguration.org>
+List-Post: <mailto:dev@scriptedconfiguration.org>
+List-Owner: <mailto:ericshane@eradman.com> (Eric Radman)
+List-Unsubscribe: <mailto:admin@scriptedconfiguration.org?subject=unsubscribe>
+List-Help: <mailto:admin@scriptedconfiguration.org?subject=question>
+Precedence: list
+From: eradman <eradman@eradman.com>
+To: admin@scriptedconfiguration.org
+Subject: subscribe dev
+Message-ID: <ZdzywVApf4eR0nNf@mx.unresolved.name>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+

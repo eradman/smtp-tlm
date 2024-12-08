@@ -1,0 +1,15 @@
+config|smtpd-version|7.4.0
+config|smtp-session-timeout|300
+config|subsystem|smtp-in
+config|admd|t470s.eradman.com
+config|ready
+filter|0.7|1711411841.598483|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|Received: from localhost (localhost [127.0.0.1])
+filter|0.7|1711411841.598554|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|	by t470s.eradman.com (OpenSMTPD) with ESMTP id 1f347726
+filter|0.7|1711411841.598575|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|	for <eradman@t470s.eradman.com>;
+filter|0.7|1711411841.598584|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|	Mon, 25 Mar 2024 20:10:41 -0400 (EDT)
+filter|0.7|1711411894.653815|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|From: ericshane@eradman.com
+filter|0.7|1711411894.654960|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|To: eradman
+filter|0.7|1711411894.654980|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|Subject: subscribe
+filter|0.7|1711411894.654989|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|
+filter|0.7|1711411894.654999|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|1 2 3
+filter|0.7|1711411894.655446|smtp-in|data-line|6146e4bc0c3cdaa5|6c464260be172662|.
