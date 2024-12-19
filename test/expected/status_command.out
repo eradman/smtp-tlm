@@ -1,0 +1,3 @@
+mail -r admin@scriptedconfiguration.org -s 'Re: status dev' eradman@eradman.com
+You are not subscribed to dev@scriptedconfiguration.org
+.

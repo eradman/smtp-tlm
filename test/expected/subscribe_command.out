@@ -1,0 +1,6 @@
+10c10
+< dev: /var/www/archive/rset-dev-2024.mbox,marc,ericshane@eradman.com
+---
+> dev: /var/www/archive/rset-dev-2024.mbox,marc,ericshane@eradman.com,eradman@eradman.com
+smtpctl update table aliases
+smtpctl update table members

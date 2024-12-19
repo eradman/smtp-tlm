@@ -1,0 +1,18 @@
+register|filter|smtp-in|data-line
+register|ready
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|Received: from localhost (localhost [127.0.0.1])
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|	by t470s.eradman.com (OpenSMTPD) with ESMTP id 1f347726
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|	for <eradman@t470s.eradman.com>;
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|	Mon, 25 Mar 2024 20:10:41 -0400 (EDT)
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|List-Id: <dev.scriptedconfiguration.org>
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|List-Post: <mailto:dev@scriptedconfiguration.org>
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|List-Owner: <mailto:ericshane@eradman.com> (Eric Radman)
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|List-Unsubscribe: <mailto:admin@scriptedconfiguration.org?subject=unsubscribe+dev>
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|List-Help: <mailto:admin@scriptedconfiguration.org?subject=list+help>
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|Precedence: list
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|From: ericshane@eradman.com
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|To: eradman
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|Subject: subscribe
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|1 2 3
+filter-dataline|6146e4bc0c3cdaa5|6c464260be172662|.
