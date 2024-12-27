@@ -1,2 +1,3 @@
 smtpctl update table aliases
 smtpctl update table members
+entr -zpnd true

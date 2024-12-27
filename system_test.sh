@@ -6,7 +6,7 @@ READ_MESSAGE="$PWD/read_message.awk"
 MEMBERS="$PWD/test/etc/mail/members"
 ALIASES="$PWD/test/etc/mail/aliases"
 MAILDIR="test/home/mail"
-WATCHFILE="/dev/null"
+WATCHDIR="/dev/null"
 LIST_NAME="dev"
 RSUB_DIFF_ARGS=" "
 

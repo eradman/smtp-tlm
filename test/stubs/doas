@@ -1,4 +1,4 @@
 #!/bin/sh
 cmd=$1
 shift
-exec $cmd $*
+exec $cmd "$@"

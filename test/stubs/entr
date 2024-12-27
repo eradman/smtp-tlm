@@ -1,0 +1,3 @@
+#!/bin/sh
+echo entr "$*"
+exit 1

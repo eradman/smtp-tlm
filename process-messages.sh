@@ -13,9 +13,6 @@
 : ${LIST_NAME:="dev"}
 : ${LIST_EMAIL:="dev@scriptedconfiguration.org"}
 : ${ADMIN_EMAIL:="admin@scriptedconfiguration.org"}
-: ${WATCHFILE:="$MAILDIR/new/.watch"}
-
-echo $$ > $WATCHFILE
 
 function commit {
 	doas cp tmp/members.new $MEMBERS
@@ -64,5 +61,5 @@ do
 done
 
 # wait for incoming messages
-[ -f $WATCHFILE ] && echo $WATCHFILE | entr -zpnd true
+echo $MAILDIR/new | entr -zpnd true
 [ $? -eq 0 -o $? -eq 2 ] && exec $0 $*
