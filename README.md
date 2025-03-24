@@ -3,6 +3,8 @@ SMTP Tiny List Manager
 
 A tiny email list manager for OpenSMTPD.
 
+Inspired by the minimalist list manager used by d78.org.
+
 Dependencies
 ------------
 
