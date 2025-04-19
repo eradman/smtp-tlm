@@ -19,7 +19,6 @@ function commit {
 	doas rsub $ALIASES <<-CONF
 	$LIST_NAME: /var/www/archive/$PROJECT-$LIST_NAME-$(date +%Y).mbox,marc,$(paste -sd ',' $MEMBERS)
 	CONF
-	rm -f tmp/members.new rsub_*
 	doas smtpctl update table aliases
 	doas smtpctl update table members
 }
