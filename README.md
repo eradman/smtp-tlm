@@ -3,6 +3,10 @@ SMTP Tiny List Manager
 
 A tiny email list manager for OpenSMTPD.
 
+Instantiates a
+[verbatim mailing list](https://www.ietf.org/archive/id/draft-ietf-dkim-deployment-02.html#anchor27)
+which does not modify existing message headers.
+
 Inspired by the minimalist list manager used by d78.org.
 
 Dependencies
